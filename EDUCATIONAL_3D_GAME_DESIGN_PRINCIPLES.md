@@ -1,18 +1,33 @@
 # Educational 3D Game Design Principles
 
-**Version:** 1.0  
-**Evidence base:** Lim, Nonis, & Hedberg (2006), an exploratory study of Quest Atlantis in Primary Four science lessons.  
+**Version:** 1.1  
+**Evidence base:** Lim, Nonis, & Hedberg (2006), an exploratory study of Quest Atlantis in Primary Four science lessons; Kim, Song, Lockee, & Burton (2018), especially chapters 6-8 on learner perceptions, gamification frameworks, and strategy.  
 **Scope:** A reusable starting point for designing and reviewing 3D games intended to support learning, especially science learning.
 
-This guide is grounded in one small exploratory study, not a universal recipe. The study involved eight students in one school, so its findings are useful design evidence but do not establish that every principle will work for every age, subject, or game. Treat the principles below as research-informed questions to test with learners.
+This guide combines a small exploratory classroom study with a broader design text; it is not a universal recipe. Lim et al. studied eight students in one school. Kim et al. synthesize frameworks and design practices but do not test the full set of mechanics below as one package. Treat these principles as research-informed questions to test with learners.
 
 ## How to read the evidence labels
 
 - **Study finding** means Lim et al. reported or observed this in their study.
+- **Framework guidance** means Kim et al. describe concepts or design practices drawn from prior research and frameworks; it does not mean their book empirically tested the recommendation as a whole.
 - **Design synthesis** means a practical recommendation inferred from those findings. It is not a tested result from the paper.
 - When adding research, record the source, population, context, method, and limitations. Keep evidence distinct from interpretation.
 
 ## Principles
+
+## Core mechanics: minimum learning-game functions
+
+Every educational game should provide these seven functions. Their form can vary by genre, age group, subject, and whether the experience is digital; they do not require a particular points or badge system.
+
+1. **Clear goals and quests.** State the learning purpose and the current mission in terms learners can understand. (P2)
+2. **Meaningful player actions and choices.** Let learners investigate, solve, build, explain, or decide using the target knowledge. (P1-P2)
+3. **Actionable feedback.** Show the result of an action and give information that helps learners improve or choose a next step. (P7)
+4. **Visible progression.** Show what has been completed, what has improved, and what learning challenge comes next. Use quests, stages, or another clear progress cue. (P2, P7)
+5. **Scaffolding and retries.** Provide hints, examples, or smaller steps when needed, and allow learners to use feedback to try again. (P4)
+6. **Reflection or explanation.** Ask learners to explain reasoning, evidence, or what they learned, with suitable prompts and time. (P6)
+7. **Understandable rules and navigation.** Make controls, rules, objectives, and quest locations easy to learn and find. (P5)
+
+Story, points, badges, rewards, leaderboards, and competition are optional mechanics. Add them only when they support the learning goal and fit the learners and context; complexity by itself does not improve learning.
 
 ### P1. Make learning actions part of gameplay
 
@@ -107,6 +122,7 @@ Before committing to a design, answer these questions:
 7. How will learning be assessed separately from game engagement?
 8. Does the complete activity fit available lesson time and curriculum expectations?
 9. What learner test or classroom observation will challenge the design assumptions?
+10. Does the game provide all seven core mechanics, in forms suited to its learners and learning goal?
 
 ## Research record and updates
 
@@ -115,11 +131,14 @@ Keep an evidence record whenever this guide changes:
 | Version/date | Principle | Change | Source and evidence | Context and limitation |
 |---|---|---|---|---|
 | 1.0 / 2026-09-23 | P1-P10 | Initial guide synthesized from the paper and the preceding review | Lim, Nonis, & Hedberg (2006); exploratory observations, interviews, student work, and pre/post assessment | Eight Primary Four students, one Singapore school, five lessons; exploratory, no control group |
+| 1.1 / 2026-09-23 | Core mechanics; P1-P10 clarified | Added a seven-function minimum mechanics set and distinguished optional reward/competition mechanics | Kim, Song, Lockee, & Burton (2018), chapters 6-8; frameworks, prior research, and design process; synthesized with Lim et al. (2006) | The book covers varied gamification contexts; it does not evaluate this seven-function set as a single package |
 
 When new research supports or challenges a principle, update the evidence record and the principle together. Preserve contradictory findings and note relevant differences in age, subject, platform, and study method. Do not describe a design synthesis as a direct finding from a source.
 
 ## Source
 
 Lim, C. P., Nonis, D., & Hedberg, J. (2006). Gaming in a 3D multiuser virtual environment: Engaging students in Science lessons. *British Journal of Educational Technology, 37*(2), 211-231. https://doi.org/10.1111/j.1467-8535.2006.00531.x
+
+Kim, S., Song, K., Lockee, B., & Burton, J. (2018). *Gamification in Learning and Education: Enjoy Learning Like Gaming*. Springer. https://doi.org/10.1007/978-3-319-47283-6
 
 Source PDF supplied for this synthesis: `NIE Lib/T&L Sci/Brit J Educational Tech - 2006 - Lim - Gaming in a 3D multiuser virtual environment  engaging students in Science lessons.pdf`.
